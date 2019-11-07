@@ -20,8 +20,8 @@ public class CallG extends AppCompatActivity  {
         } else {
             final String dial = "tel:" + pNumC;
             new AlertDialog.Builder(activityC)
-                    .setMessage("Dial")
-                    .setPositiveButton("Dial", new DialogInterface.OnClickListener() {
+                    .setMessage("Dial")mmmmm
+                    .setPositiveButton("Dial44444", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             activityC.startActivity(new Intent(Intent.ACTION_CALL, Uri.parse(dial)));
