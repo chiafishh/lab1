@@ -20,7 +20,7 @@ public class CallG extends AppCompatActivity  {
         } else {
             final String dial = "tel:" + pNumC;
             new AlertDialog.Builder(activityC)
-                    .setMessage("Dial")444444
+                    .setMessage("Dial")333333
                     .setPositiveButton("Dial44444", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
